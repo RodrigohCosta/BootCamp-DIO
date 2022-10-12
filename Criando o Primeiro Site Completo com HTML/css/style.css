@@ -287,11 +287,15 @@ table tbody tr:hover{
     
 }
 
+.buttonGroup{
+    display: flex;
+}
+
 .formList button {
     background-color: #3b9af8;
     padding: 1.5em;
     border: none;
-    width: 95%;
+    width: 46%;
     border-radius: 15px;
     margin-left: 3%;
     color: #f2f2f2;
