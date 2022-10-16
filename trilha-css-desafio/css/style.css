@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+/*PARTE I - HEADER*/
+
+.banner { 
+ height: 605px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ background: url(/assets/images/banner.png), linear-gradient(180deg, rgba(0, 0, 0, 0.9),rgba(0,0,0,0.9) 100%);
+ border-bottom: 2px solid #33A8DB; 
+}
+
+.banner-content {
+    width: 500px;
+    height: 605px;     
+}
+
+.banner-content img {
+    margin: 2rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.banner-content h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.banner-content p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;   
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+.banner-content button {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.21em;
+    color: #31A8DD;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    background: transparent;
+    border: 1px solid #31A8DD;
+}
+
+/*PARTE - SECTION COURSE-CONTENT*/
+
+#course-content {
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px solid #31A8DD;
+    background-color: #000;
+    color: #fff;
+}
+
+#course-content h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    margin-bottom: 2rem;
+}
+
+#course-content p {
+    width: 792px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 2rem;
+}
+
+.module {    
+    justify-content: center;
+    align-items: center;
+    padding: 16px 50px; 
+    width: 570px;  
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    margin-bottom: 1.7rem;
+}
+
+.module span {
+    color: #31A8DD;
+}
+
+/*TRABALHANDO O ID TRANSFORM-WORLD*/
+
+#transform-world {
+    height: 345px;
+    background-image: url(/assets/images/woman-code.png), linear-gradient(180deg, rgba(0, 0, 0, 0.9),rgba(0,0,0,0.9) 100%) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-bottom: 3px solid #31A8DD;
+}
+
+#transform-world p {
+    position: relative;
+    width: 244px;
+    height: 141px;
+    left: 15%;
+    top: 20%;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+}
+
+/*TRABALHANDO O ID PROFESSIONAL-CHALLENGES*/
+
+#professional-challenges {
+    height: 800px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid #33A8DB;
+    
+}
+
+#professional-challenges h2 {
+    position: absolute;
+    width: 746px;
+    height: 76px;
+    left: 347px;
+    top: 1577px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+}
+
+#professional-challenges img {  
+    position: absolute;
+    width: 659px;
+    height: 429px;
+    left: 390px;
+    top: 1685px;
+}
+
+#professional-challenges p {
+    position: absolute;
+    width: 792px;
+    height: 76px;
+    left: 324px;
+    top: 2154px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center; 
+}
+
+/*TRABALHANDO O FOOTER*/
+
+footer {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
